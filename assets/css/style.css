@@ -1,0 +1,162 @@
+
+
+body {
+  
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #a6dff2;
+}
+
+header {
+  padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #79bcec;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    list-style: none;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #135686;
+  }
+
+  header h1 {
+      color: #135686;
+      font-weight: bold;
+      font-size: 36px;
+      margin: 0;
+      /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    color: #e9fcfc;
+    text-shadow: none;
+  }
+
+  .about-me2 {
+      display: flex;
+      justify-content:left;
+      flex-wrap: wrap;
+  }
+
+  .about-me  {
+      color: #135686;
+      font-size: 30px; 
+  }
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.projects div h3 {
+  color: #135686; 
+}
+
+
+  footer {
+    
+    width: 90%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer h2 {
+    color:  #135686;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer h3 {
+    color:  #135686;
+  }
+
+  section {
+    padding: 60px;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  /*.flex-row img {
+    object-fit: contain;
+  }*/
+
+  .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.projects {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: auto;
+  width:auto;
+  background-color: #79bcec;
+  color: #ffffff;
+}
+
+.projects img {
+  max-height: 100px;
+  max-width: 100px;
+
+}
+
+.projects img:hover {
+  height: 200px;
+  width: 200px;
+}
+
+.prj1 {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.prjBorder {
+  border-left: 2px;
+  border-color: black;
+}
+
+div h2 a {
+  color: #ffffff;
+}
